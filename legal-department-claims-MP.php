@@ -1,7 +1,6 @@
 <? 
 require_once($_SERVER["DOCUMENT_ROOT"]."/local/report/crest.php");
 
-
 if(isset($_GET["date"])){
 
     $date = $_GET["date"];
