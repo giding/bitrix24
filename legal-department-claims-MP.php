@@ -152,7 +152,7 @@ for ($i=0; $i<count($deal_all); $i++)
 	{
 	$print_title = $deal_all[$i]['TITLE'];
 	$deal_all_ozon_fbs[] = array("ID" => $deal_all[$i]['ID'], "TITLE" => $deal_all[$i]['TITLE'], "STAGE_ID" => $deal_all[$i]['STAGE_ID'], "OPPORTUNITY" => $deal_all[$i]['OPPORTUNITY'], "REAL_OPPORTUNITY" => $deal_all[$i]['UF_CRM_1748263562854'], "COMPENS_OPPORTUNITY" => $deal_all[$i]['UF_CRM_1744875526'], "TIME_TAKE" => $deal_all[$i]['UF_CRM_1749011297'], "MARKET_PLAYS" => $deal_all[$i]['UF_CRM_1744364236'], "WORK_MODEL" => $deal_all[$i]['UF_CRM_1744364295'], "RESPONSE_CLAIM" => $deal_all[$i]['UF_CRM_1744875443347'],
-	"LINK" => "<a target='_blank' href=https://b24.topcomputer.ru/crm/deal/details/".$deal_all[$i]['ID']."/>".$print_title."</a>", "CELL_COLOR" => $deal_all[$i]['CELL_COLOR']);
+	"LINK" => "<a target='_blank' href=../crm/deal/details/".$deal_all[$i]['ID']."/>".$print_title."</a>", "CELL_COLOR" => $deal_all[$i]['CELL_COLOR']);
 	$summ_deal_all_ozon_fbs += $deal_all[$i]['OPPORTUNITY'];
 	$summ_real_deal_all_ozon_fbs += $deal_all[$i]['UF_CRM_1748263562854'];
 	$summ_compens_deal_all_ozon_fbs += $deal_all[$i]['UF_CRM_1744875526'];
@@ -351,7 +351,7 @@ for ($i=0; $i<count($deal_all); $i++)
 	{
 	$print_title = $deal_all[$i]['TITLE'];
 	$deal_all_ozon_fbo[] = array("ID" => $deal_all[$i]['ID'], "TITLE" => $deal_all[$i]['TITLE'], "STAGE_ID" => $deal_all[$i]['STAGE_ID'], "OPPORTUNITY" => $deal_all[$i]['OPPORTUNITY'], "REAL_OPPORTUNITY" => $deal_all[$i]['UF_CRM_1748263562854'], "COMPENS_OPPORTUNITY" => $deal_all[$i]['UF_CRM_1744875526'], "TIME_TAKE" => $deal_all[$i]['UF_CRM_1749011297'], "MARKET_PLAYS" => $deal_all[$i]['UF_CRM_1744364236'], "WORK_MODEL" => $deal_all[$i]['UF_CRM_1744364295'], "RESPONSE_CLAIM" => $deal_all[$i]['UF_CRM_1744875443347'],
-	"LINK" => "<a target='_blank' href=https://b24.topcomputer.ru/crm/deal/details/".$deal_all[$i]['ID']."/>".$print_title."</a>", "CELL_COLOR" => $deal_all[$i]['CELL_COLOR']);
+	"LINK" => "<a target='_blank' href=../crm/deal/details/".$deal_all[$i]['ID']."/>".$print_title."</a>", "CELL_COLOR" => $deal_all[$i]['CELL_COLOR']);
 	$summ_deal_all_ozon_fbo += $deal_all[$i]['OPPORTUNITY'];
 	$summ_real_deal_all_ozon_fbo += $deal_all[$i]['UF_CRM_1748263562854'];
 	$summ_compens_deal_all_ozon_fbo += $deal_all[$i]['UF_CRM_1744875526'];
@@ -540,7 +540,7 @@ for ($i=0; $i<count($deal_all); $i++)
 	{
 	$print_title = $deal_all[$i]['TITLE'];
 	$deal_all_yamarket_dbs[] = array("ID" => $deal_all[$i]['ID'], "TITLE" => $deal_all[$i]['TITLE'], "STAGE_ID" => $deal_all[$i]['STAGE_ID'], "OPPORTUNITY" => $deal_all[$i]['OPPORTUNITY'], "REAL_OPPORTUNITY" => $deal_all[$i]['UF_CRM_1748263562854'], "COMPENS_OPPORTUNITY" => $deal_all[$i]['UF_CRM_1744875526'], "MARKET_PLAYS" => $deal_all[$i]['UF_CRM_1744364236'], "WORK_MODEL" => $deal_all[$i]['UF_CRM_1744364295'], "RESPONSE_CLAIM" => $deal_all[$i]['UF_CRM_1744875443347'],
-	"LINK" => "<a target='_blank' href=https://b24.topcomputer.ru/crm/deal/details/".$deal_all[$i]['ID']."/>".$print_title."</a>", "CELL_COLOR" => $deal_all[$i]['CELL_COLOR']);
+	"LINK" => "<a target='_blank' href=../crm/deal/details/".$deal_all[$i]['ID']."/>".$print_title."</a>", "CELL_COLOR" => $deal_all[$i]['CELL_COLOR']);
 	$summ_deal_all_yamarket_dbs += $deal_all[$i]['OPPORTUNITY'];
 	$summ_real_deal_all_yamarket_dbs += $deal_all[$i]['UF_CRM_1748263562854'];
 	$summ_compens_deal_all_yamarket_dbs += $deal_all[$i]['UF_CRM_1744875526'];
@@ -723,7 +723,7 @@ for ($i=0; $i<count($deal_all); $i++)
 	{
 	$print_title = $deal_all[$i]['TITLE'];
 	$deal_all_yamarket_fbs[] = array("ID" => $deal_all[$i]['ID'], "TITLE" => $deal_all[$i]['TITLE'], "STAGE_ID" => $deal_all[$i]['STAGE_ID'], "OPPORTUNITY" => $deal_all[$i]['OPPORTUNITY'], "REAL_OPPORTUNITY" => $deal_all[$i]['UF_CRM_1748263562854'], "COMPENS_OPPORTUNITY" => $deal_all[$i]['UF_CRM_1744875526'], "MARKET_PLAYS" => $deal_all[$i]['UF_CRM_1744364236'], "WORK_MODEL" => $deal_all[$i]['UF_CRM_1744364295'], "RESPONSE_CLAIM" => $deal_all[$i]['UF_CRM_1744875443347'],
-	"LINK" => "<a target='_blank' href=https://b24.topcomputer.ru/crm/deal/details/".$deal_all[$i]['ID']."/>".$print_title."</a>", "CELL_COLOR" => $deal_all[$i]['CELL_COLOR']);
+	"LINK" => "<a target='_blank' href=../crm/deal/details/".$deal_all[$i]['ID']."/>".$print_title."</a>", "CELL_COLOR" => $deal_all[$i]['CELL_COLOR']);
 	$summ_deal_all_yamarket_fbs += $deal_all[$i]['OPPORTUNITY'];
 	$summ_real_deal_all_yamarket_fbs += $deal_all[$i]['UF_CRM_1748263562854'];
 	$summ_compens_deal_all_yamarket_fbs += $deal_all[$i]['UF_CRM_1744875526'];
@@ -909,7 +909,7 @@ for ($i=0; $i<count($deal_all); $i++)
 	{
 	$print_title = $deal_all[$i]['TITLE'];
 	$deal_all_yamarket_fby[] = array("ID" => $deal_all[$i]['ID'], "TITLE" => $deal_all[$i]['TITLE'], "STAGE_ID" => $deal_all[$i]['STAGE_ID'], "OPPORTUNITY" => $deal_all[$i]['OPPORTUNITY'], "REAL_OPPORTUNITY" => $deal_all[$i]['UF_CRM_1748263562854'], "COMPENS_OPPORTUNITY" => $deal_all[$i]['UF_CRM_1744875526'], "MARKET_PLAYS" => $deal_all[$i]['UF_CRM_1744364236'], "WORK_MODEL" => $deal_all[$i]['UF_CRM_1744364295'], "RESPONSE_CLAIM" => $deal_all[$i]['UF_CRM_1744875443347'],
-	"LINK" => "<a target='_blank' href=https://b24.topcomputer.ru/crm/deal/details/".$deal_all[$i]['ID']."/>".$print_title."</a>", "CELL_COLOR" => $deal_all[$i]['CELL_COLOR']);
+	"LINK" => "<a target='_blank' href=../crm/deal/details/".$deal_all[$i]['ID']."/>".$print_title."</a>", "CELL_COLOR" => $deal_all[$i]['CELL_COLOR']);
 	$summ_deal_all_yamarket_fby += $deal_all[$i]['OPPORTUNITY'];
 	$summ_real_deal_all_yamarket_fby += $deal_all[$i]['UF_CRM_1748263562854'];
 	$summ_compens_deal_all_yamarket_fby += $deal_all[$i]['UF_CRM_1744875526'];
@@ -1094,7 +1094,7 @@ for ($i=0; $i<count($deal_all); $i++)
 	{
 	$print_title = $deal_all[$i]['TITLE'];
 	$deal_all_yamarket_fbo[] = array("ID" => $deal_all[$i]['ID'], "TITLE" => $deal_all[$i]['TITLE'], "STAGE_ID" => $deal_all[$i]['STAGE_ID'], "OPPORTUNITY" => $deal_all[$i]['OPPORTUNITY'], "REAL_OPPORTUNITY" => $deal_all[$i]['UF_CRM_1748263562854'], "COMPENS_OPPORTUNITY" => $deal_all[$i]['UF_CRM_1744875526'], "MARKET_PLAYS" => $deal_all[$i]['UF_CRM_1744364236'], "WORK_MODEL" => $deal_all[$i]['UF_CRM_1744364295'], "RESPONSE_CLAIM" => $deal_all[$i]['UF_CRM_1744875443347'],
-	"LINK" => "<a target='_blank' href=https://b24.topcomputer.ru/crm/deal/details/".$deal_all[$i]['ID']."/>".$print_title."</a>", "CELL_COLOR" => $deal_all[$i]['CELL_COLOR']);
+	"LINK" => "<a target='_blank' href=../crm/deal/details/".$deal_all[$i]['ID']."/>".$print_title."</a>", "CELL_COLOR" => $deal_all[$i]['CELL_COLOR']);
 	$summ_deal_all_yamarket_fbo += $deal_all[$i]['OPPORTUNITY'];
 	$summ_real_deal_all_yamarket_fbo += $deal_all[$i]['UF_CRM_1748263562854'];
 	$summ_compens_deal_all_yamarket_fbo += $deal_all[$i]['UF_CRM_1744875526'];
@@ -1318,7 +1318,7 @@ for ($i=0; $i<count($deal_all); $i++)
 	}
 ?>
 	</td>
-	<td width = "78%" style="text-align: right; border: none;"><h3><a href="https://b24.topcomputer.ru/local/report/legal_depart/legal-department-claims-MP-print.php?<?php echo "date=".$date ;?>&<?php echo "datenow=".$datenow; ?>"> Скачать в Excel </a></h3>
+	<td width = "78%" style="text-align: right; border: none;"><h3><a href="../local/report/legal_depart/legal-department-claims-MP-print.php?<?php echo "date=".$date ;?>&<?php echo "datenow=".$datenow; ?>"> Скачать в Excel </a></h3>
 </td>
 </tr>
 </table>
@@ -1407,9 +1407,9 @@ for ($i=0; $i<count($deal_all); $i++)
 			<td style="font-size: x-small; background: <?php echo $link_deal_all_ozon_fbs[$i]['CELL_COLOR'];?>"><?php echo $link_deal_all_ozon_fbs[$i]['STAGE'];?></td>
 
 <?php if (strpos($link_deal_all_ozon_fbs[$i]['LINK'], 'ЯМ') || strpos($link_deal_all_ozon_fbs[$i]['LINK'], 'OZON') !== false):?>
-<td><a target="_blank" href="https://b24.topcomputer.ru/local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_ozon_fbs[$i]['ID']?>"><?php echo number_format($link_deal_all_ozon_fbs[$i]['SUMM'], 0, ',', ' ');?></a></td>
-<td><a target="_blank" href="https://b24.topcomputer.ru/local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_ozon_fbs[$i]['ID']?>"><?php echo number_format($link_deal_all_ozon_fbs[$i]['REAL_SUMM'], 0, ',', ' ');?></a></td>
-<td><a target="_blank" href="https://b24.topcomputer.ru/local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_ozon_fbs[$i]['ID']?>"><?php echo number_format($link_deal_all_ozon_fbs[$i]['COMPENS_SUMM'], 0, ',', ' ');?></a></td>
+<td><a target="_blank" href="../local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_ozon_fbs[$i]['ID']?>"><?php echo number_format($link_deal_all_ozon_fbs[$i]['SUMM'], 0, ',', ' ');?></a></td>
+<td><a target="_blank" href="../local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_ozon_fbs[$i]['ID']?>"><?php echo number_format($link_deal_all_ozon_fbs[$i]['REAL_SUMM'], 0, ',', ' ');?></a></td>
+<td><a target="_blank" href="../local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_ozon_fbs[$i]['ID']?>"><?php echo number_format($link_deal_all_ozon_fbs[$i]['COMPENS_SUMM'], 0, ',', ' ');?></a></td>
 <?php else: ?>
 <td><?php echo number_format($link_deal_all_ozon_fbs[$i]['SUMM'], 0, ',', ' ');?></td>
 <td>
@@ -1513,9 +1513,9 @@ for ($i=0; $i<count($deal_all); $i++)
 			<td style="font-size: x-small; background: <?php echo $link_deal_all_ozon_fbo[$i]['CELL_COLOR'];?>"><?php echo $link_deal_all_ozon_fbo[$i]['STAGE'];?></td>
 
 <?php if (strpos($link_deal_all_ozon_fbo[$i]['LINK'], 'ЯМ') || strpos($link_deal_all_ozon_fbo[$i]['LINK'], 'OZON') !== false):?>
-<td><a target="_blank" href="https://b24.topcomputer.ru/local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_ozon_fbo[$i]['ID']?>"><?php echo number_format($link_deal_all_ozon_fbo[$i]['SUMM'], 0, ',', ' ');?></a></td>
-<td><a target="_blank" href="https://b24.topcomputer.ru/local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_ozon_fbo[$i]['ID']?>"><?php echo number_format($link_deal_all_ozon_fbo[$i]['REAL_SUMM'], 0, ',', ' ');?></a></td>
-<td><a target="_blank" href="https://b24.topcomputer.ru/local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_ozon_fbo[$i]['ID']?>"><?php echo number_format($link_deal_all_ozon_fbo[$i]['COMPENS_SUMM'], 0, ',', ' ');?></a></td>
+<td><a target="_blank" href="../local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_ozon_fbo[$i]['ID']?>"><?php echo number_format($link_deal_all_ozon_fbo[$i]['SUMM'], 0, ',', ' ');?></a></td>
+<td><a target="_blank" href="../local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_ozon_fbo[$i]['ID']?>"><?php echo number_format($link_deal_all_ozon_fbo[$i]['REAL_SUMM'], 0, ',', ' ');?></a></td>
+<td><a target="_blank" href="../local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_ozon_fbo[$i]['ID']?>"><?php echo number_format($link_deal_all_ozon_fbo[$i]['COMPENS_SUMM'], 0, ',', ' ');?></a></td>
 <?php else: ?>
 <td><?php echo number_format($link_deal_all_ozon_fbo[$i]['SUMM'], 0, ',', ' ');?></td>
 <td>
@@ -1617,9 +1617,9 @@ for ($i=0; $i<count($deal_all); $i++)
 
 
 <?php if (strpos($link_deal_all_yamarket_dbs[$i]['LINK'], 'ЯМ') || strpos($link_deal_all_yamarket_dbs[$i]['LINK'], 'OZON') !== false):?>
-<td><a target="_blank" href="https://b24.topcomputer.ru/local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_yamarket_dbs[$i]['ID']?>"><?php echo number_format($link_deal_all_yamarket_dbs[$i]['SUMM'], 0, ',', ' ');?></a></td>
-<td><a target="_blank" href="https://b24.topcomputer.ru/local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_yamarket_dbs[$i]['ID']?>"><?php echo number_format($link_deal_all_yamarket_dbs[$i]['REAL_SUMM'], 0, ',', ' ');?></a></td>
-<td><a target="_blank" href="https://b24.topcomputer.ru/local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_yamarket_dbs[$i]['ID']?>"><?php echo number_format($link_deal_all_yamarket_dbs[$i]['COMPENS_SUMM'], 0, ',', ' ');?></a></td>
+<td><a target="_blank" href="../local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_yamarket_dbs[$i]['ID']?>"><?php echo number_format($link_deal_all_yamarket_dbs[$i]['SUMM'], 0, ',', ' ');?></a></td>
+<td><a target="_blank" href="../local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_yamarket_dbs[$i]['ID']?>"><?php echo number_format($link_deal_all_yamarket_dbs[$i]['REAL_SUMM'], 0, ',', ' ');?></a></td>
+<td><a target="_blank" href="../local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_yamarket_dbs[$i]['ID']?>"><?php echo number_format($link_deal_all_yamarket_dbs[$i]['COMPENS_SUMM'], 0, ',', ' ');?></a></td>
 <?php else: ?>
 <td><?php echo number_format($link_deal_all_yamarket_dbs[$i]['SUMM'], 0, ',', ' ');?></td>
 <td>
@@ -1719,9 +1719,9 @@ for ($i=0; $i<count($deal_all); $i++)
 
 
 <?php if (strpos($link_deal_all_yamarket_fbs[$i]['LINK'], 'ЯМ') || strpos($link_deal_all_yamarket_fbs[$i]['LINK'], 'OZON') !== false):?>
-<td><a target="_blank" href="https://b24.topcomputer.ru/local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_yamarket_fbs[$i]['ID']?>"><?php echo number_format($link_deal_all_yamarket_fbs[$i]['SUMM'], 0, ',', ' ');?></a></td>
-<td><a target="_blank" href="https://b24.topcomputer.ru/local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_yamarket_fbs[$i]['ID']?>"><?php echo number_format($link_deal_all_yamarket_fbs[$i]['REAL_SUMM'], 0, ',', ' ');?></a></td>
-<td><a target="_blank" href="https://b24.topcomputer.ru/local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_yamarket_fbs[$i]['ID']?>"><?php echo number_format($link_deal_all_yamarket_fbs[$i]['COMPENS_SUMM'], 0, ',', ' ');?></a></td>
+<td><a target="_blank" href="../local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_yamarket_fbs[$i]['ID']?>"><?php echo number_format($link_deal_all_yamarket_fbs[$i]['SUMM'], 0, ',', ' ');?></a></td>
+<td><a target="_blank" href="../local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_yamarket_fbs[$i]['ID']?>"><?php echo number_format($link_deal_all_yamarket_fbs[$i]['REAL_SUMM'], 0, ',', ' ');?></a></td>
+<td><a target="_blank" href="../local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_yamarket_fbs[$i]['ID']?>"><?php echo number_format($link_deal_all_yamarket_fbs[$i]['COMPENS_SUMM'], 0, ',', ' ');?></a></td>
 <?php else: ?>
 <td><?php echo number_format($link_deal_all_yamarket_fbs[$i]['SUMM'], 0, ',', ' ');?></td>
 <td>
@@ -1821,9 +1821,9 @@ for ($i=0; $i<count($deal_all); $i++)
 			<td style="font-size: x-small; background: <?php echo $link_deal_all_yamarket_fby[$i]['CELL_COLOR'];?>"><?php echo $link_deal_all_yamarket_fby[$i]['STAGE'];?></td>
 
 <?php if (strpos($link_deal_all_yamarket_fby[$i]['LINK'], 'ЯМ') || strpos($link_deal_all_yamarket_fby[$i]['LINK'], 'OZON') !== false):?>
-<td><a target="_blank" href="https://b24.topcomputer.ru/local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_yamarket_fby[$i]['ID']?>"><?php echo number_format($link_deal_all_yamarket_fby[$i]['SUMM'], 0, ',', ' ');?></a></td>
-<td><a target="_blank" href="https://b24.topcomputer.ru/local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_yamarket_fby[$i]['ID']?>"><?php echo number_format($link_deal_all_yamarket_fby[$i]['REAL_SUMM'], 0, ',', ' ');?></a></td>
-<td><a target="_blank" href="https://b24.topcomputer.ru/local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_yamarket_fby[$i]['ID']?>"><?php echo number_format($link_deal_all_yamarket_fby[$i]['COMPENS_SUMM'], 0, ',', ' ');?></a></td>
+<td><a target="_blank" href="../local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_yamarket_fby[$i]['ID']?>"><?php echo number_format($link_deal_all_yamarket_fby[$i]['SUMM'], 0, ',', ' ');?></a></td>
+<td><a target="_blank" href="../local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_yamarket_fby[$i]['ID']?>"><?php echo number_format($link_deal_all_yamarket_fby[$i]['REAL_SUMM'], 0, ',', ' ');?></a></td>
+<td><a target="_blank" href="../local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_yamarket_fby[$i]['ID']?>"><?php echo number_format($link_deal_all_yamarket_fby[$i]['COMPENS_SUMM'], 0, ',', ' ');?></a></td>
 <?php else: ?>
 <td><?php echo number_format($link_deal_all_yamarket_fby[$i]['SUMM'], 0, ',', ' ');?></td>
 <td>
@@ -1922,8 +1922,8 @@ for ($i=0; $i<count($deal_all); $i++)
 			<td style="font-size: x-small; background: <?php echo $link_deal_all_yamarket_fbo[$i]['CELL_COLOR'];?>"><?php echo $link_deal_all_yamarket_fbo[$i]['STAGE'];?></td>
 
 <?php if (strpos($link_deal_all_yamarket_fbo[$i]['LINK'], 'ЯМ') || strpos($link_deal_all_yamarket_fbo[$i]['LINK'], 'OZON') !== false):?>
-<td><a target="_blank" href="https://b24.topcomputer.ru/local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_yamarket_fbo[$i]['ID']?>"><?php echo number_format($link_deal_all_yamarket_fbo[$i]['SUMM'], 0, ',', ' ');?></a></td>
-<td><a target="_blank" href="https://b24.topcomputer.ru/local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_yamarket_fbo[$i]['ID']?>"><?php echo number_format($link_deal_all_yamarket_fbo[$i]['REAL_SUMM'], 0, ',', ' ');?></a></td>
+<td><a target="_blank" href="../local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_yamarket_fbo[$i]['ID']?>"><?php echo number_format($link_deal_all_yamarket_fbo[$i]['SUMM'], 0, ',', ' ');?></a></td>
+<td><a target="_blank" href="../local/report/legal_depart/legal-department-claims-MP-more.php?id=<?php echo $deal_all_yamarket_fbo[$i]['ID']?>"><?php echo number_format($link_deal_all_yamarket_fbo[$i]['REAL_SUMM'], 0, ',', ' ');?></a></td>
 <?php else: ?>
 <td><?php echo number_format($link_deal_all_yamarket_fbo[$i]['SUMM'], 0, ',', ' ');?></td>
 <td>
